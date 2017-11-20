@@ -14,32 +14,6 @@
       <StackPane fx:id="stackPane" prefHeight="150.0" prefWidth="200.0" />
       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" stylesheets="@application.css">
          <children>
-            <Label styleClass="title" stylesheets="@application.css" text="RulloFX">
-               <font>
-                  <Font size="20.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="10.0" />
-               </HBox.margin>
-            </Label>
-            <Region HBox.hgrow="ALWAYS" />
-            <Button fx:id="newGame" mnemonicParsing="false" text="★" onMouseClicked="#onNewGame">
-               <font>
-                  <Font size="20.0" />
-               </font>
-               <HBox.margin>
-                  <Insets bottom="5.0" />
-               </HBox.margin>
-            </Button>
-            <Region HBox.hgrow="ALWAYS" />
-            <Button fx:id="reset" mnemonicParsing="false" text="⟲" onMouseClicked="#onReset">
-               <font>
-                  <Font size="20.0" />
-               </font>
-               <HBox.margin>
-                  <Insets bottom="5.0" />
-               </HBox.margin>
-            </Button>
          </children>
       </HBox>
    </children>
