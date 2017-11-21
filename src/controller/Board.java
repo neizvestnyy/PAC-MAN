@@ -1,11 +1,17 @@
 package controller;
 
-import java.util.Observer;
+import javafx.scene.input.KeyEvent;
 
 public class Board {
 	
-	public Board(Observer o) {
-		
+	private view.Board view;
+	
+	public Board(view.Board view) {
+		this.view = view;
+	}
+	
+	public void onKeyPressed(KeyEvent event) {
+		this.view.getModel().onKeyPressed(event);
 	}
 
 }
