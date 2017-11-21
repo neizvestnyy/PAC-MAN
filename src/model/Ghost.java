@@ -1,10 +1,8 @@
 package model;
 
-public class Ghost {
+public class Ghost extends Entity {
 	
-	private Point coords;
 	private boolean isVulnerable;
-	private static final int EARNINGS = 200;
 	
 	public Ghost() {
 		
